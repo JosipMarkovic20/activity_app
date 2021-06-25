@@ -11,10 +11,8 @@ import RxSwift
 
 class RESTManager{
     func getData<T: Codable>(url: String) -> Observable<T>{
-        var parameters = Parameters()
-        
         return Observable.create{ observer in
-           let request = AF.request(url, parameters: parameters).validate().responseDecodable(of: T.self, decoder: SerilizationManager.jsonDecoder){ networkResponse in
+           let request = AF.request(url, parameters: nil).validate().responseDecodable(of: T.self, decoder: SerilizationManager.jsonDecoder){ networkResponse in
                 switch networkResponse.result{
                 case .success:
                     do{
