@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Activity App
+
+  Created by Josip Marković on 25.06.2021..
+  
+*/
+
+"login" = "Login";
+"email" = "E-mail";
+"password" = "Password";
+"min_length" = "Minimal password length is 6 characters";
+"email_not_valid" = "Email format is not valid";
+"error" = "Error";
+"price" = "Price";
+"participants" = "Participants";
+"accessibility" = "Accessibility";
+"activity" = "Activity";
