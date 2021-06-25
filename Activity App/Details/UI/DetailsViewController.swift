@@ -19,7 +19,6 @@ public final class DetailsViewController: UIViewController, UITableViewDelegate 
     }()
     
     private let viewModel: DetailsViewModel!
-    var dataSource: RxTableViewSectionedAnimatedDataSource<HomeSectionItem>!
     
     public let disposeBag = DisposeBag()
     
